@@ -1,0 +1,24 @@
+name: Pangaea
+authors: [Hepolite]
+main: com.hepolite.pangaea.Pangaea
+version: 1.0.1
+depend: [Pillar, SkillAPI, MCCore, PermissionsEx, LibsDisguises]
+description: >
+             Provides a lot of stuff for the survival world
+commands:
+  pangaea:
+    description: The main command for the plugin, should be accessible for everyone
+    usage: /pangaea <instruction>
+    permission: pangaea.basic
+    permission-message: Sorry, you don't have permission to use this command. Go bug the admins to get you access to it!
+permissions:
+  pangaea.basic:
+    description: Gives access to the most basic stuff
+  pangaea.admin:
+    description: Gives access to the more complicated stuff
+  pangaea.system:
+    description: No player should ever have this permission
+  pangaea.basic.flight:
+    description: Gives access to the flight mechanic
+  pangaea.admin.flight:
+    description: Ignores all restrictions on flight
