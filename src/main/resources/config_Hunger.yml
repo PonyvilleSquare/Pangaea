@@ -1,0 +1,1004 @@
+General:
+  debugmode: false
+  maxFoodAmount: 100.0
+  cannotEatMessage: '&bYou''re not able to eat that!'
+  starvedToDeathMessage:
+  - <player> was unable to find food in time
+  - <player> went too long without food
+  - <player> starved to death
+  disableHungerDamage: false
+  instaDeathOnStarve: false
+  enableHealing: true
+  eatingSound:
+    enable: true
+    sound: entity_generic_eat
+    volume: 1.0
+    pitch: 1.0
+Default:
+  Foods:
+    apple:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    baked_potato:
+      categories: vegetable
+      hunger: 25.0
+      saturation: 36.0
+    beetroot:
+      categories: vegetable
+      hunger: 6.0
+      saturation: 30.0
+    beetroot_soup:
+      categories: vegetable
+      hunger: 30.0
+      saturation: 36.0
+    bread:
+      categories: grain
+      hunger: 25.0
+      saturation: 30.0
+    carrot_item:
+      categories: vegetable
+      hunger: 15.0
+      saturation: 24.0
+    chorus_fruit:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    raw_fish-2:
+      categories: meat seafood
+      hunger: 5.0
+      saturation: 1.0
+    cooked_chicken:
+      categories: meat
+      hunger: 30.0
+      saturation: 36.0
+    cooked_fish:
+      categories: meat seafood
+      hunger: 25.0
+      saturation: 30.0
+    cooked_mutton:
+      categories: meat
+      hunger: 30.0
+      saturation: 48.0
+    grilled_pork:
+      categories: meat
+      hunger: 40.0
+      saturation: 64.0
+    cooked_rabbit:
+      categories: meat
+      hunger: 25.0
+      saturation: 30.0
+    cooked_fish-1:
+      categories: meat seafood
+      hunger: 30.0
+      saturation: 48.0
+    cookie:
+      categories: grain
+      hunger: 10.0
+      saturation: 2.0
+    golden_apple:
+      categories: fruit
+      alwaysEdible: true
+      hunger: 20.0
+      saturation: 48.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: regeneration
+          duration: 100
+          amplifier: 2
+        Effect 1:
+          type: absorption
+          duration: 2400
+          amplifier: 4
+    golden_apple-1:
+      categories: fruit
+      alwaysEdible: true
+      hunger: 20.0
+      saturation: 48.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: regeneration
+          duration: 400
+          amplifier: 2
+        Effect 1:
+          type: absorption
+          duration: 2400
+          amplifier: 4
+        Effect 2:
+          type: damage_resistance
+          duration: 6000
+          amplifier: 1
+        Effect 3:
+          type: fire_resistance
+          duration: 6000
+          amplifier: 1
+    golden_carrot:
+      categories: vegetable
+      hunger: 30.0
+      saturation: 72.0
+    melon:
+      categories: fruit
+      hunger: 10.0
+      saturation: 6.0
+    mushroom_soup:
+      categories: mushroom
+      hunger: 30.0
+      saturation: 36.0
+    poisonous_potato:
+      categories: vegetable
+      hunger: 10.0
+      saturation: 6.0
+      chance: 0.6
+      effects:
+        Effect 0:
+          type: poison
+          duration: 80
+          amplifier: 1
+    potato_item:
+      categories: vegetable
+      hunger: 5.0
+      saturation: 3.0
+    raw_fish-3:
+      categories: meat seafood
+      hunger: 5.0
+      saturation: 1.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: hunger
+          duration: 300
+          amplifier: 3
+        Effect 1:
+          type: confusion
+          duration: 300
+          amplifier: 2
+        Effect 2:
+          type: poison
+          duration: 1200
+          amplifier: 4
+    pumpkin_pie:
+      categories: grain fruit
+      hunger: 40.0
+      saturation: 24.0
+    rabbit_stew:
+      categories: meat
+      hunger: 50.0
+      saturation: 60.0
+    raw_beef:
+      categories: meat
+      hunger: 15.0
+      saturation: 9.0
+    raw_chicken:
+      categories: meat
+      hunger: 10.0
+      saturation: 6.0
+      chance: 0.3
+      effects:
+        Effect 0:
+          type: hunger
+          duration: 600
+          amplifier: 1
+    raw_fish:
+      categories: meat seafood
+      hunger: 10.0
+      saturation: 2.0
+    mutton:
+      categories: meat
+      hunger: 10.0
+      saturation: 6.0
+    pork:
+      categories: meat
+      hunger: 15.0
+      saturation: 9.0
+    rabbit:
+      categories: meat
+      hunger: 15.0
+      saturation: 9.0
+    raw_fish-1:
+      categories: meat seafood
+      hunger: 10.0
+      saturation: 2.0
+    rotten_flesh:
+      categories: meat
+      hunger: 20.0
+      saturation: 8.0
+      chance: 0.8
+      effects:
+        Effect 0:
+          type: hunger
+          duration: 600
+          amplifier: 1
+    spider_eye:
+      categories: meat
+      hunger: 10.0
+      saturation: 16.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: poison
+          duration: 80
+          amplifier: 1
+    cooked_beef:
+      categories: meat
+      hunger: 40.0
+      saturation: 64.0
+    red_mushroom:
+      categories: mushroom
+      hunger: 10.0
+      saturation: 8.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: blindness
+          duration: 600
+          amplifier: 1
+    brown_mushroom:
+      categories: mushroom
+      hunger: 10.0
+      saturation: 8.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: confusion
+          duration: 600
+          amplifier: 1
+    sugar:
+      categories: sweets
+      hunger: 1.0
+      saturation: 0.1
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: speed
+          duration: 200
+          amplifier: 1
+    long_grass:
+      categories: vegetation
+      hunger: 3.5
+      saturation: 1.5
+    long_grass-1:
+      categories: vegetation
+      hunger: 3.5
+      saturation: 1.5
+    long_grass-2:
+      categories: vegetation
+      hunger: 3.5
+      saturation: 1.5
+    yellow_flower:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-1:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-2:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-3:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-4:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-5:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-6:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-7:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    red_rose-8:
+      categories: vegetation
+      hunger: 10.0
+      saturation: 2.0
+    double_plant:
+      categories: vegetation
+      hunger: 17.5
+      saturation: 5.0
+    double_plant-1:
+      categories: vegetation
+      hunger: 17.5
+      saturation: 5.0
+    double_plant-2:
+      categories: vegetation
+      hunger: 17.5
+      saturation: 5.0
+    double_plant-3:
+      categories: vegetation
+      hunger: 17.5
+      saturation: 5.0
+    double_plant-4:
+      categories: vegetation
+      hunger: 17.5
+      saturation: 5.0
+    double_plant-5:
+      categories: vegetation
+      hunger: 17.5
+      saturation: 5.0
+    seeds:
+      categories: vegetation seed
+      hunger: 2.0
+      saturation: 0.1
+    pumpkin_seeds:
+      categories: vegetation seed
+      hunger: 2.0
+      saturation: 0.1
+    melon_seeds:
+      categories: vegetation seed
+      hunger: 2.0
+      saturation: 0.1
+    beetroot_seeds:
+      categories: vegetation seed
+      hunger: 2.0
+      saturation: 0.1
+    wheat:
+      categories: grain vegetation
+      hunger: 6.0
+      saturation: 8.0
+    ink_sack-10;&2Solidified Love:
+      categories: changeling_ability
+      alwaysEdible: true
+      hunger: 0.0
+      saturation: -15.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: regeneration
+          duration: 80
+          amplifier: 2
+    slime_block;&2Sticky Resin:
+      categories: changeling_ability
+      hunger: 10.0
+      saturation: 8.0
+    vine;&2Kelp:
+      categories: seafood
+      hunger: 6.0
+      saturation: 8.0
+    seeds;&aPlankton:
+      categories: seafood
+      hunger: 2.0
+      saturation: 3.0
+    bread;&6Freshly Baked Bread:
+      categories: grain
+      hunger: 50.0
+      saturation: 60.0
+      chance: 1.0
+      effects:
+        Effect 0:
+          type: regeneration
+          duration: 60
+          amplifier: 1
+    skull_item-3;&cApple:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&8Blackberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&9Blueberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&2Cabbage:
+      categories: vegetable
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&cCherry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&cCranberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&6Coconut:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&6Corn:
+      categories: grain
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&cCowberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&cElderberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&cGrape:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&eLemon:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&2Lettuce:
+      categories: vegetable
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&aLime:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&eMustard Seed:
+      categories: seed
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&6Orange:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&5Peach:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&aPear:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&6Pineapple:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&5Plum:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&4Pomegranate:
+      categories: fruit
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&dRaspberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&4Strawberry:
+      categories: berry
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&6Sweet Potato:
+      categories: vegetable
+      hunger: 10.0
+      saturation: 6.0
+    skull_item-3;&aTea Leaf:
+      categories: vegetation
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&4Tomato:
+      categories: fruit
+      hunger: 5.0
+      saturation: 3.0
+    skull_item-3;&6Hot Chocolate:
+      categories: dairy sweets
+      hunger: 20.0
+      saturation: 6.0
+    skull_item-3;&6Pinacolada:
+      categories: fruit
+      hunger: 30.0
+      saturation: 6.0
+    skull_item-3;&aSweetened Tea:
+      categories: vegetation
+      hunger: 15.0
+      saturation: 3.0
+    skull_item-3;&cGrape Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&cGrape Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&9Blueberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&9Blueberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&cElderberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&cElderberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&dRaspberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&dRaspberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&8Blackberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&8Blackberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&cCranberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&cCranberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&cCowberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&cCowberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&4Strawberry Jelly Sandwich:
+      categories: berry grain sweets
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&4Strawberry Pie:
+      categories: berry grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&cApple oak Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&cCherry Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&4Pomegranate Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&eLemon Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&5Plum Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&aLime Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&6Orange Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&5Peach Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&aPear Pie:
+      categories: fruit grain sweets dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rPumpkin Bread:
+      categories: fruit sweets grain
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rChocolate Bar:
+      categories: sweets dairy
+      hunger: 15.0
+      saturation: 6.0
+    skull_item-3;&rChicken Sandwich:
+      categories: meat grain
+      hunger: 45.0
+      saturation: 54.0
+    skull_item-3;&rFish Sandwich:
+      categories: meat grain
+      hunger: 40.0
+      saturation: 48.0
+    mushroom_soup;&rPotato Salad:
+      categories: vegetable
+      hunger: 35.0
+      saturation: 42.0
+    mushroom_soup;&rEgg Salad:
+      categories: meat
+      hunger: 35.0
+      saturation: 42.0
+    mushroom_soup;&4Tomato Soup:
+      categories: fruit
+      hunger: 15.0
+      saturation: 18.0
+    mushroom_soup;&cStrawberry Salad:
+      categories: berry
+      hunger: 15.0
+      saturation: 18.0
+    mushroom_soup;&cGrape Salad:
+      categories: berry
+      hunger: 15.0
+      saturation: 18.0
+    skull_item-3;&rCheesecake:
+      categories: grain sweets dairy
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&cCherry Cheesecake:
+      categories: grain sweets dairy berry
+      hunger: 65.0
+      saturation: 78.0
+    skull_item-3;&9Blueberry Cheesecake:
+      categories: grain sweets dairy berry
+      hunger: 65.0
+      saturation: 78.0
+    skull_item-3;&6Pumpkin Cheesecake:
+      categories: grain sweets dairy fruit
+      hunger: 65.0
+      saturation: 78.0
+    cookie;&6Biscuit:
+      categories: grain sweets dairy
+      hunger: 10.0
+      saturation: 12.0
+    skull_item-3;&8Blackberry Cobbler:
+      categories: grain sweets berry
+      hunger: 25.0
+      saturation: 30.0
+    skull_item-3;&rPavlova:
+      categories: sweets berry fruit dairy
+      hunger: 45.0
+      saturation: 54.0
+    golden_carrot;&6Corn on the Cob:
+      categories: grain dairy
+      hunger: 22.5
+      saturation: 27.0
+    mushroom_soup;&rCreamed Corn:
+      categories: grain dairy
+      hunger: 20.0
+      saturation: 24.0
+    skull_item-3;&rBacon:
+      categories: meat
+      hunger: 40.0
+      saturation: 64.0
+    skull_item-3;&rSandwich:
+      categories: grain meat fruit vegetable
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&rBLT:
+      categories: grain meat fruit vegetable
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rLeafy Chicken Sandwich:
+      categories: grain meat fruit vegetable
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rLeafy Fish Sandwich:
+      categories: grain meat fruit vegetable
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rHamburger:
+      categories: grain meat
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rCheeseburger:
+      categories: grain meat dairy
+      hunger: 45.0
+      saturation: 54.0
+    skull_item-3;&rBacon Cheeseburger:
+      categories: grain meat dairy
+      hunger: 70.0
+      saturation: 112.0
+    skull_item-3;&rDeluxe Cheeseburger:
+      categories: grain meat dairy fruit vegetable
+      hunger: 60.0
+      saturation: 96.0
+    skull_item-3;&rCarrot Cake:
+      categories: vegetable grain sweets
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rChickenburger:
+      categories: grain meat
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&rChicken Cheeseburger:
+      categories: grain meat dairy
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rBacon Burger:
+      categories: grain meat
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rBacon Sandwich:
+      categories: grain meat fruit vegetable
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rTaco:
+      categories: meat fruit vegetable dairy grain
+      hunger: 55.0
+      saturation: 88.0
+    skull_item-3;&rFish Taco:
+      categories: meat fruit vegetable dairy grain
+      hunger: 45.0
+      saturation: 72.0
+    cookie;&cJammy Dodger:
+      categories: grain berry
+      hunger: 25.0
+      saturation: 30.0
+    skull_item-3;&rPancakes:
+      categories: grain sweets dairy
+      hunger: 30.0
+      saturation: 36.0
+    skull_item-3;&rBlueberry Pancakes:
+      categories: grain sweets dairy berry
+      hunger: 35.0
+      saturation: 42.0
+    skull_item-3;&rFries:
+      categories: vegetable
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&rPopcorn:
+      categories: grain dairy
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&rPopcorn &7(Sweet):
+      categories: grain dairy sweets
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&rPopcorn &7(Salty):
+      categories: grain dairy
+      hunger: 20.0
+      saturation: 12.0
+    skull_item-3;&rShepard's Pie:
+      categories: vegetable fruit grain meat
+      hunger: 60.0
+      saturation: 96.0
+    skull_item-3;&rChicken Pot Pie:
+      categories: meat vegetable grain
+      hunger: 50.0
+      saturation: 80.0
+    skull_item-3;&rChocolate Cake:
+      categories: grain sweets dairy
+      hunger: 60.0
+      saturation: 36.0
+    skull_item-3;&rCream Cookie:
+      categories: grain sweets dairy
+      hunger: 35.0
+      saturation: 21.0
+    skull_item-3;&rBlueberry Muffin:
+      categories: grain sweets dairy berry
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rPumpkin Muffin:
+      categories: fruit sweets grain dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rChocolate Chip Muffin:
+      categories: sweets grain dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rBoston Cream Pie:
+      categories: sweets dairy grains
+      hunger: 30.0
+      saturation: 36.0
+    skull_item-3;&rHot Dog:
+      categories: meat grain
+      hunger: 40.0
+      saturation: 64.0
+    skull_item-3;&rBacon wrapped Cheese filled Hot Dog:
+      categories: meat grain dairy
+      hunger: 50.0
+      saturation: 80.0
+    skull_item-3;&rBBQ Bacon wrapped Hot Dog:
+      categories: meat grain
+      hunger: 50.0
+      saturation: 80.0
+    skull_item-3;&rBBQ Double Bacon wrapped Hot Dog in a Tortilla with Cheese:
+      categories: meat dairy grain
+      hunger: 100.0
+      saturation: 160.0
+    skull_item-3;&cChocolate Strawberry:
+      categories: sweets berry
+      hunger: 30.0
+      saturation: 36.0
+    skull_item-3;&rLamington:
+      categories: sweets grain dairy fruit
+      hunger: 30.0
+      saturation: 36.0
+    skull_item-3;&rWaffles:
+      categories: grain sweets dairy
+      hunger: 45.0
+      saturation: 54.0
+    skull_item-3;&rClub Sandwich:
+      categories: grain meat fruit vegetable
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&rBurrito:
+      categories: grain meat vegetable fruit dairy
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rChicken Burrito:
+      categories: meat grain vegetable fruit dairy
+      hunger: 60.0
+      saturation: 84.0
+    skull_item-3;&rGrilled Sandwich:
+      categories: meat grain vegetable fruit dairy
+      hunger: 60.0
+      saturation: 84.0
+    skull_item-3;&rLasagna:
+      categories: fruit dairy grain meat
+      hunger: 80.0
+      saturation: 128.0
+    skull_item-3;&rIce Cream:
+      categories: dairy sweets berry
+      hunger: 40.0
+      saturation: 24.0
+    skull_item-3;&rTiramisu:
+      categories: dairy sweets fruit
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&rTiramisu with Strawberries:
+      categories: dairy berry
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rTiramisu with Raspberries:
+      categories: dairy berry
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rTiramisu with Blackberries:
+      categories: dairy berry
+      hunger: 40.0
+      saturation: 48.0
+    skull_item-3;&rChocolate Pear Cake:
+      categories: sweets grain dairy fruit
+      hunger: 50.0
+      saturation: 60.0
+    skull_item-3;&cApple Pear Cake:
+      categories: fruit sweets grain dairy
+      hunger: 60.0
+      saturation: 72.0
+    skull_item-3;&6Sweetened Pear Cheesecake:
+      categories: fruit sweets grain dairy
+      hunger: 60.0
+      saturation: 72.0
+Races:
+  Default:
+    Exhaustion:
+      rest: 0.45
+      idle: 0.05
+      sneak: 0.15
+      walk: 0.3
+      run: 0.9
+      fly: 1.5
+      reduction: 0.006
+      convertRate: 0.45
+    Hunger:
+      starveDamage: 1.0
+      healLevel: 0.3
+      healAmount: 0.5
+      healSaturationCost: 2.5
+  Bat Pony:
+    Foods:
+      cooked_fish:
+        categories: seafood
+        hunger: 16.0
+        saturation: 20.0
+      cooked_fish-1:
+        categories: seafood
+        hunger: 20.0
+        saturation: 28.0
+      raw_fish:
+        categories: seafood
+      raw_fish-1:
+        categories: seafood
+      raw_fish-2:
+        categories: seafood
+      raw_fish-3:
+        categories: seafood
+      apple:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: regeneration
+            duration: 100
+            amplifier: 1
+      beetroot:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: absorption
+            duration: 100
+            amplifier: 5
+      beetroot_soup:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: absorption
+            duration: 160
+            amplifier: 5
+      carrot_item:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: damage_resistance
+            duration: 400
+            amplifier: 1
+      chorus_fruit:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: regeneration
+            duration: 100
+            amplifier: 2
+      melon:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: damage_resistance
+            duration: 400
+            amplifier: 1
+      golden_carrot:
+        chance: 1.0
+        effects:
+          Effect 0:
+            type: regeneration
+            duration: 100
+            amplifier: 1
+          Effect 1:
+            type: damage_resistance
+            duration: 300
+            amplifier: 2
+    forbidden: meat
+  Changeling:
+    Foods:
+      rotten_flesh:
+        chance: 0.1
+    forbidden: vegetation
+  Earth Pony:
+    forbidden: meat
+  Pegasus:
+    forbidden: meat
+  Sea Pony:
+    Exhaustion:
+      sneak: 0.06
+      walk: 0.1
+      run: 0.2
+      fly: 1.0
+    Foods:
+      cooked_fish:
+        categories: seafood
+      cooked_fish-1:
+        categories: seafood
+      raw_fish:
+        categories: seafood
+        hunger: 30.0
+        saturation: 36.0
+      raw_fish-1:
+        categories: seafood
+        hunger: 40.0
+        saturation: 50.0
+      raw_fish-2:
+        categories: seafood
+        hunger: 30.0
+        saturation: 36.0
+      raw_fish-3:
+        categories: seafood
+    forbidden: meat vegetation
+  Unicorn:
+    forbidden: meat
+  Zebra:
+    forbidden: meat

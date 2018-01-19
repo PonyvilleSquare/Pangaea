@@ -1,0 +1,9 @@
+Fish:
+  minSpawn: 2
+  maxSpawn: 4
+  minDepth: 32.0
+  maxDepth: 44.0
+  minSpeed: 0.1
+  maxSpeed: 0.2
+  minFleeSpeed: 0.5
+  maxFleeSpeed: 0.65

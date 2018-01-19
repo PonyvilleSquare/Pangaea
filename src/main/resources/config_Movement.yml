@@ -1,0 +1,32 @@
+General:
+  fallDeathMessages:
+  - '<player> fell from a high place'
+  - '<player> had an unpleasant meeting with the ground'
+  - '<player> tested if gravity still works'
+  - '<player> found out that the ground is hard'
+  - '<player> was unable to land properly'
+Default:
+  Ground:
+    baseSpeed: 0.2
+  Flight:
+# Default speed is 0.05
+    baseSpeed: 0.2
+    disabledByEffects:
+    - confusion
+  Impact:
+    featherFallEfficiency: 1.75
+  Exhaustion:
+    grounded: 200.0
+    warning: 240.0
+    failing: 245.0
+Alicorn:
+  Flight:
+    baseSpeed: 0.04
+Earth Pony:
+  Ground:
+    baseSpeed: 0.22
+Sea Pony:
+  Flight:
+    baseSpeed: 0.075
+  Ground:
+    baseSpeed: 0.18

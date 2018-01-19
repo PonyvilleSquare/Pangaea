@@ -1,0 +1,5 @@
+item:
+  type: firework_charge
+  amount: 64
+  meta: 0
+  name: '&2Toxin-Coated Bullet'

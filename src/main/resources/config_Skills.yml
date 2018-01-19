@@ -1,0 +1,1058 @@
+General:
+  downgradeWaitTime: 72000
+Bat Pony:
+  Attitude Control:
+    Flat:
+      Level 1: -2.0
+  Cling:
+    Flight:
+      Level 1: -0.75
+  Durable Armor:
+    chance: 0.33
+  Efficient Flyer:
+    Flight:
+      Level 1: -0.1
+  Experienced:
+    Level 1: 0.1
+    Level 2: 0.2
+  Improved Fishing:
+    fishAmount: 3
+    Loot:
+      default:
+        weight: 0.90
+      mmob:
+        weight: 0.03
+        medium:
+          weight: 0.1
+        high:
+          weight: 0.7
+        epic:
+          weight: 0.2
+        negativeGroup: negative
+        negativeChance: 0.6
+        negativeChanceDouble: 0.2
+      item:
+        weight: 0.05
+        diamond:
+          weight: 0.7
+          type: diamond
+          name: '&bSparkling Gem'
+          lore:
+          - '&fSomehow this got caught on the hook'
+        vine:
+          weight: 5.0
+          type: vine
+          amount: 3
+          name: '&2Kelp'
+          lore:
+          - '&fFound floating around in the water'
+        grass:
+          weight: 5.0
+          type: long_grass
+          amount: 3
+          meta: 1
+          name: '&aSoggy Grass'
+          lore:
+          - '&fIt has been drifting around here'
+          - '&ffor quite some time, it seems'
+  Lacerate:
+    cooldown: 1.0
+    skills:
+    - Stab
+    - Swipe
+  Night Prowler:
+    Ground:
+      Level 1: 0.1
+    Flight:
+      Level 1: 0.1
+    Damage:
+      Level 1: 0.2
+    Hunger:
+      Level 1: 0.15
+  Quick Catch:
+    Level 1:
+      chance: 0.15
+    Level 2:
+      chance: 0.3
+  Rolling with it:
+    Level 1: 0.1
+  Stab:
+    cooldown: 1.0
+    skills:
+    - Lacerate
+    - Swipe
+  Swipe:
+    cooldown: 0.5
+    skills:
+    - Swipe
+  Teamwork:
+    modifier: 0.3
+  Trained:
+    Damage:
+      Level 1: 0.15
+Changeling:
+  Absorb:
+    Cost:
+      saturation: 65
+    mana: 30
+  Ambient Feeding:
+    range: 25.0
+    amount: 2.5
+  Attitude Control:
+    Flat:
+      Level 1: -2.0
+  Bug:
+    Level 0: -0.15
+  Clear Resin:
+    Cost:
+      saturation: 20
+    products:
+      Item 0:
+        type: stained_glass
+        amount: 4
+        meta: 5
+        name: '&2Solidified Clear Resin'
+        lore:
+        - '&r&aAll natural, no synthetic compounds added!'
+  Disguise:
+    blocked:
+    - areaeffectcloud
+    - armorstand
+    - arrow
+    - boat
+    - droppeditem
+    - egg
+    - elderguardian
+    - endercrystal
+    - enderdragon
+    - enderpearl
+    - endersignal
+    - experienceorb
+    - fallingblock
+    - fireball
+    - firework
+    - fishinghook
+    - giant
+    - itemframe
+    - leashhitch
+    - minecart
+    - minecartchest
+    - minecartcommand
+    - minecartfurnace
+    - minecarthopper
+    - minecartmobspawner
+    - minecarttnt
+    - painting
+    - primedtnt
+    - shulker
+    - shulkerbullet
+    - smallfireball
+    - snowball
+    - snowman
+    - spectralarrow
+    - splashpotion
+    - thrownexpbottle
+    - tippedarrow
+    - wither
+    - witherskull
+    - unknown
+    flySkills:
+    - fly
+    flyMobs:
+    - bat
+    - blaze
+    - enderdragon
+    - ghast
+    blockBreak:
+    - player
+    - zombie
+    - skeleton
+    - villager
+    - witherskeleton
+    - zombiepigman
+    blockPlace:
+    - player
+    - zombie
+    - skeleton
+    - villager
+    - witherskeleton
+    - zombiepigman
+    useItem:
+    - player
+    - zombie
+    - skeleton
+    - villager
+    - witherskeleton
+    - zombiepigman
+    itemPickup:
+    - player
+    - zombie
+    - skeleton
+    - villager
+    - witherskeleton
+    - zombiepigman
+    harmedBySun:
+    - zombie
+    - skeleton
+    harmedByWater:
+    - blaze
+    - enderman
+    harmedByAir:
+    - squid
+    additionalDamageMobs:
+    - bat
+    - silverfish
+    - endermite
+    - chicken
+    additionalDamage: 0.75
+    woolCost: -45.0
+    milkCost: -65.0
+    mushroomCost: -80.0
+    maxSlimeSize: 2
+  Efficient Flyer:
+    Flight:
+      Level 1: -0.1
+  Fire Portal:
+    range: 5
+  Hollow Leg:
+    Level 1: 25.0
+    Level 2: 50.0
+  Leech Group:
+    range: 10.0
+    radius: 6.0
+  Metabolism:
+    cost: 0.75
+    heal: 0.5
+  Reinforced Shell:
+    Level 1: 0.15
+  Share the Love:
+    Cost:
+      saturation: 40
+    products:
+      Item 0:
+        type: ink_sack
+        amount: 1
+        meta: 10
+        name: '&2Solidified Love'
+        lore:
+        - '&aTaste the love!'
+        - '&aGrants a regeneration bonus'
+        - '&aMay be used as a dye during emergencies!'
+  Solid Resin:
+    Cost:
+      saturation: 30
+    products:
+      Item 0:
+        type: stained_clay
+        amount: 12
+        meta: 5
+        name: '&2Solidified Resin'
+        lore:
+        - '&r&aAll natural, no synthetic compounds added!'
+  Sticky Resin:
+    Cost:
+      saturation: 60
+    products:
+      Item 0:
+        type: slime_block
+        amount: 3
+        meta: 5
+        name: '&2Sticky Resin'
+        lore:
+        - '&r&aAll natural, no synthetic compounds added!'
+        - '&r&aIt''s edible too!'
+  Thaumic Strike:
+    speed: 2.75
+    duration: 100
+    angle: -45.0
+    rate: 0.2
+    Level 1:
+      damage: 10.0
+      range: 5.0
+    Level 2:
+      damage: 15.0
+      range: 5.0
+Crystal Pony:
+  Crystallized:
+    Level 1: 0.1
+  Haste:
+    Ground:
+      Level 1: 0.1
+  Resilient:
+    Level 0: 0.1
+Earth Pony:
+  Apple Farmer:
+    minYield: 0.0025
+    maxYield: 0.0075
+    fertilizer: 0.1
+  Golden Apple Farmer:
+    minYield: 0.0005
+    maxYield: 0.0012
+    fertilizer: 0.01
+  Haste (Earth Pony):
+    Ground:
+      Level 1: 0.125
+      Level 2: 0.25
+  Natural Connection:
+    chance: 0.5
+    attempts: 3
+  Leap:
+    speed: 1.8
+    duration: 1
+    protection: 10.0
+    protectionDuration: 120
+  Observant:
+    types:
+    - cow
+    - pig
+    - sheep
+    - chicken
+    - rabbit
+    - wolf
+    - ocelot
+  Sturdy:
+    Level 1: 0.2
+  Swiftness:
+    Ground:
+      Level 1: 0.25
+  Tend Animals:
+    chance: 0.75
+    range: 25.0
+    max: 3
+  Toughness:
+    Level 1: 0.15
+    Level 2: 0.3
+Pegasus:
+  Attitude Control:
+    Flat:
+      Level 1: -2.0
+  Carry:
+    exhaustionModifier: 0.333
+    Flight:
+      Level 1: -0.25
+  Flight:
+    Level 1: -0.2
+  Cloud Production:
+    Cost:
+      items:
+        Item 1:
+          type: water_bucket
+          amount: 1
+          meta: 0
+    products:
+      Item 0:
+        type: snow_block
+        amount: 32
+        name: '&fCloud Block'
+        lore:
+        - '&bSome may say that it is, in fact, not a block of cloud.'
+        - '&bThey are, of course, incorrect, as this is the most fluffy'
+        - '&bblock of cloud that you ever have felt!'
+      Item 1:
+        type: bucket
+        amount: 1
+        meta: 0
+  Cooling:
+    Cost:
+      items:
+        Item 1:
+          type: water_bucket
+          amount: 1
+          meta: 0
+    products:
+      Item 0:
+        type: ice
+        amount: 4
+        name: '&fIce Block'
+        lore:
+        - '&bCreated from the finest water!'
+        - '&bPerfectly clear ice, with a blue tint'
+      Item 1:
+        type: packed_ice
+        amount: 4
+        name: '&fSolid Ice Block'
+        lore:
+        - '&bCreated from the finest water!'
+        - '&bQuite solid and firm. May crack under pressure.'
+      Item 2:
+        type: bucket
+        amount: 1
+        meta: 0
+  Dash:
+    speed: 3.0
+    duration: 15
+    Level 1:
+      damage: 4.0
+    Level 2:
+      damage: 6.0
+  Fly:
+    Flat:
+      Level 1: -2.0
+  Fly Faster:
+    Flight:
+      Level 1: 0.125
+      Level 2: 0.25
+  Hailstorm:
+    Cost:
+      items:
+        Item 0:
+          type: packed_ice
+          amount: 2
+          meta: 0
+        Item 1:
+          type: snow_block
+          amount: 5
+          meta: 0
+    Level 1:
+      radius: 8.0
+      damage: 1.5
+      duration: 200
+    Level 2:
+      radius: 10.0
+      damage: 2.0
+      duration: 300
+  High Speed Strike:
+    modifier: 0.9
+  Long-Range Flyer:
+    Flight:
+      Level 1: -0.125
+      Level 2: -0.25
+  Preen:
+    Flight:
+      Level 1: 0.15
+  Prism:
+    Cost:
+      items:
+        Item 1:
+          type: glass
+          amount: 2
+          meta: 0
+    products:
+      Item 0:
+        type: ink_sack
+        amount: 1
+        meta: 5
+        name: '&5Solidified Purple Light'
+        lore:
+        - '&fPurple is often associated with royalty, nobility, luxury,'
+        - '&fpower, and ambition. Purple also represents meanings'
+        - '&fof wealth, extravagance, creativity, wisdom, dignity,'
+        - '&fgrandeur, devotion, peace, pride, mystery,'
+        - '&findependence, and magic.'
+      Item 1:
+        type: ink_sack
+        amount: 1
+        meta: 4
+        name: '&9Solidified Blue Light'
+        lore:
+        - '&fBlue represents both the sky and the sea, and is'
+        - '&fassociated with open spaces, freedom, intuition,'
+        - '&fimagination, expansiveness, inspiration, and'
+        - '&fsensitivity. Blue also represents meanings of depth,'
+        - '&ftrust, loyalty, sincerity, wisdom, confidence, stability,'
+        - '&ffaith, heaven, and intelligence.'
+      Item 2:
+        type: ink_sack
+        amount: 1
+        meta: 2
+        name: '&2Solidified Green Light'
+        lore:
+        - '&fGreen, the color of life, renewal, nature, and energy, is'
+        - '&fassociated with meanings of growth, harmony,'
+        - '&ffreshness, safety, fertility, and environment. Green is'
+        - '&falso traditionally associated with money, finances,'
+        - '&fbanking, ambition, greed and jealousy.'
+      Item 3:
+        type: ink_sack
+        amount: 1
+        meta: 11
+        name: '&eSolidified Yellow Light'
+        lore:
+        - '&fYellow, the color of sunshine, hope, and happiness,'
+        - '&fhas conflicting associations. On one hand yellow'
+        - '&fstands for freshness, happiness, positivity, clarity,'
+        - '&fenergy, optimism, enlightenment, remembrance,'
+        - '&fintellect, honor, loyalty, and joy, but on the other, it'
+        - '&frepresents cowardice and deceit.'
+      Item 4:
+        type: ink_sack
+        amount: 1
+        meta: 14
+        name: '&6Solidified Orange Light'
+        lore:
+        - '&fOrange is associated with meanings of joy, warmth,'
+        - '&fheat, sunshine, enthusiasm, creativity, success,'
+        - '&fencouragement, change, determination, health,'
+        - '&fstimulation, happiness, fun, enjoyment, balance,'
+        - '&fsexuality, freedom, expression, and fascination.'
+      Item 5:
+        type: ink_sack
+        amount: 1
+        meta: 1
+        name: '&4Solidified Red Light'
+        lore:
+        - '&fRed is assertive, daring, determined, energetic,'
+        - '&fpowerful, enthusiastic, impulsive, exciting, and'
+        - '&faggressive. Red represents physical energy, lust,'
+        - '&fpassion, and desire. It symbolizes action, confidence,'
+        - '&fand courage. The color red is linked to the most'
+        - '&fprimitive physical, emotional, and financial needs of'
+        - '&fsurvival and self-preservation.'
+  Quick Catch:
+    Level 1:
+      chance: 0.15
+    Level 2:
+      chance: 0.3
+  Soft Landing:
+    Flat:
+      Level 1: -4.0
+  Thunder:
+    Cost:
+      items:
+        Item 0:
+          type: snow_block
+          amount: 8
+          meta: 0
+    Level 1:
+      damage: 4.0
+      radius: 3.5
+    Level 2:
+      damage: 7.0
+      radius: 4.0
+  Water Condensation:
+    Cost:
+      items:
+        Item 1:
+          type: bucket
+          amount: 1
+          meta: 0
+    products:
+      Item 0:
+        type: water_bucket
+        amount: 1
+        meta: 0
+        name: '&fCondensed Water'
+        lore:
+        - '&bWater that has been collected directly from'
+        - '&bthe air, has a really fresh aftertaste to it!'
+Sea Pony:
+  Aquatic Lifeform:
+    airGain: 4.0
+    airLoss: 1.5
+    energySaving: 0.2
+  Bright Crafter:
+    Cost:
+      items:
+        Item 0:
+          type: glass
+          amount: 1
+        Item 1:
+          type: glowstone_dust
+          amount: 6
+        Item 2:
+          type: prismarine
+          amount: 3
+    products:
+      Item 0:
+        type: sea_lantern
+        amount: 2
+        name: '&bSea Lantern'
+        lore:
+        - '&fA beacon of hope in the dark void'
+  Carry (Sea Pony):
+    exhaustionModifier: 0.333
+    Flight:
+      Level 1: -0.25
+  Craft Respirator:
+    Cost:
+      items:
+        Item 0:
+          type: iron_ingot
+          amount: 18
+        Item 1:
+          type: leather
+          amount: 8
+        Item 2:
+          type: diamond
+          amount: 1
+        Item 3:
+          type: redstone
+          amount: 6
+    products:
+      Item 0:
+        type: iron_helmet
+        amount: 1
+        name: '&3Seawater Recirculation Pump'
+        lore:
+        - '&7An intricate tangle of tubes surrounding'
+        - '&7what looks like a diving helmet.'
+        - '&fAllows sea ponies to travel on land'
+        - '&fas easily as they would in water.'
+        - '&3Seapony Unique Racial Armor'
+        nbt:
+          Craft Respirator:
+            type: float
+            value: 250
+      Item 1:
+        type: iron_chestplate
+        amount: 1
+        name: '&3Seawater Containment Unit'
+        lore:
+        - '&7A giant translucent tank is mounted'
+        - '&7on the back of this suit.'
+        - '&fAllows sea ponies to travel on land'
+        - '&fas easily as they would in water.'
+        - '&3Seapony Unique Racial Armor'
+        nbt:
+          Craft Respirator:
+            type: float
+            value: 550
+      Item 2:
+        type: iron_leggings
+        amount: 1
+        name: '&3Seawater Intake Mesh'
+        lore:
+        - '&7A fine iron mesh that allows seawater'
+        - '&7to recharge the suit''s tanks when immersed.'
+        - '&fAllows sea ponies to travel on land'
+        - '&fas easily as they would in water.'
+        - '&3Seapony Unique Racial Armor'
+        nbt:
+          Craft Respirator:
+            type: float
+            value: 250
+      Item 3:
+        type: iron_boots
+        amount: 1
+        name: '&3Seawater Conversion System'
+        lore:
+        - '&7Integrated servos and wires connect'
+        - '&7to other components, harnessing kinetic'
+        - '&7energy to power the suit''s other functions.'
+        - '&fAllows sea ponies to travel on land'
+        - '&fas easily as they would in water.'
+        - '&3Seapony Unique Racial Armor'
+        nbt:
+          Craft Respirator:
+            type: float
+            value: 100
+  Deeper Understanding:
+    Cost:
+      items:
+        Item 0:
+          type: cobblestone
+          amount: 24
+        Item 1:
+          type: diamond
+          amount: 1
+    products:
+      Item 0:
+        type: prismarine_shard
+        amount: 64
+        name: '&bShard of Prismarine'
+        lore:
+        - '&fCrafted through ancient techniques'
+        - '&fMay cause harm if swallowed'
+      Item 1:
+        type: prismarine
+        amount: 16
+        name: '&bPrismarine'
+        lore:
+        - '&fCrafted through ancient techniques'
+        - '&fUsed in buildings and structures'
+  Drag:
+    Level 1:
+      duration: 160
+    Level 2:
+      duration: 320
+  Endurance:
+    Level 1: -0.167
+    Level 2: -0.333
+  Harvest Sponge:
+    products:
+      Item 0:
+        type: sponge
+        amount: 3
+        meta: 1
+        name: '&eWet Sponge'
+        lore:
+        - '&fClearly the result of being under water for too long'
+  Fast Swimmer:
+    Flight:
+      Level 1: 0.15
+  Leap of Joy:
+    speed: 2.0
+    duration: 20
+    angle: 45.0
+    rate: 0.2
+  Luck of the Sea:
+    diamond:
+      weight: 1.0
+      type: diamond
+      amount: 1
+      name: '&bPolished Gem'
+      lore:
+      - '&fLight makes this gem sparkle'
+      - '&fin a wonderful fashion'
+    emerald:
+      weight: 1.0
+      type: emerald
+      amount: 1
+      name: '&aPolished Gem'
+      lore:
+      - '&fLight makes this gem sparkle'
+      - '&fin a wonderful fashion'
+    gold_nugget:
+      weight: 2.0
+      type: gold_nugget
+      amount: 5
+      name: '&6Gold Nugget'
+      lore:
+      - '&fA shiny piece of gold, it is'
+      - '&fas heavy as it looks'
+    flint:
+      weight: 2.0
+      type: flint
+      amount: 1
+      name: '&8Piece of Flint'
+      lore:
+      - '&fIt has been carved by water,'
+      - '&fbut it can still be useful!'
+    sea_weed:
+      weight: 4.0
+      type: vine
+      amount: 1
+      name: '&aSea Weed'
+      lore:
+      - '&fIt has been drifting around here'
+      - '&ffor quite some time, it seems'
+    plankton:
+      weight: 5.0
+      type: seeds
+      amount: 1
+      name: '&aPlankton'
+      lore:
+      - '&fMight prove to be a tiny snack'
+    kelp:
+      weight: 4.0
+      type: vine
+      amount: 3
+      name: '&2Kelp'
+      lore:
+      - '&fFound floating around in the water'
+  Natural Environment:
+    cost: 0.75
+    heal: 0.5
+  Quick Recovery:
+    Ground:
+      Level 1: 0.1
+    Regen:
+      Level 1: 0.5
+  Resilient:
+    Level 0: 0.1
+  Sea Creature:
+    Water:
+      Ground:
+        Level 0: 0.3
+    Air:
+      Ground:
+        Level 0: -0.15
+  Swirl:
+    Level 1:
+      damage: 6
+      range: 12
+    Level 2:
+      damage: 11
+      range: 16
+  Torrent:
+    Level 1:
+      damage: 8.0
+      range: 6.0
+    Level 2:
+      damage: 16.0
+      range: 8.0
+  Water Worker:
+    workSpeed: 3
+    energySpending: 0.1
+Unicorn:
+  Deflector Shield:
+    Level 1:
+      chance: 0.3
+    Level 2:
+      chance: 0.5
+  Disarm:
+    range: 10.0
+  Hold:
+    range: 25.0
+    duration: 4.0
+  Haste:
+    Ground:
+      Level 1: 0.1
+  Infuse Stone:
+    Cost:
+      items:
+        Item 1:
+          type: stone
+          amount: 16
+          meta: 0
+    products:
+      Item 0:
+        type: glowstone
+        amount: 4
+        meta: 0
+        name: '&6Infused Stone'
+        lore:
+        - '&r&eLighting up the way!'
+  Resilient:
+    Level 0: 0.1
+  Resourceful:
+    Level 1: 0.25
+    Level 2: 0.5
+  Scroll Scribe:
+    Cost:
+      items:
+        Item 0:
+          type: paper
+          amount: 3
+          meta: 0
+    products:
+      Item 0:
+        type: enchanted_book
+        amount: 1
+        name: '&6Magic Scroll'
+        lore:
+        - '&rThe scroll shimmers with magical energy'
+    enchantments:
+    - arrow_damage
+    - arrow_fire
+    - arrow_infinite
+    - arrow_knockback
+    - damage_all
+    - damage_arthropods
+    - damage_undead
+    - depth_strider
+    - dig_speed
+    - durability
+    - fire_aspect
+    - knockback
+    - loot_bonus_blocks
+    - loot_bonus_mobs
+    - luck
+    - lure
+    - oxygen
+    - protection_environmental
+    - protection_explosions
+    - protection_fall
+    - protection_fire
+    - protection_projectile
+    - silk_touch
+    - thorns
+    - water_worker
+  Teleport:
+    Level 1:
+      range: 30
+      radius: 0.0
+    Level 2:
+      range: 45
+      radius: 0.0
+  Teleport Group:
+    Level 1:
+      range: 40
+      radius: 5.0
+    Level 2:
+      range: 45
+      radius: 5.0
+  Dimension Group Jump:
+    overworld: 'world'
+    nether: 'world_nether'
+    Level 1:
+      radius: 5.0
+  Dimension Jump:
+    overworld: 'world'
+    nether: 'world_nether'
+    Level 1:
+      radius: 0.0
+Zebra:
+  Advanced Brewer:
+    chance: 1.3
+  Gatherer:
+    aloe_vera:
+      weight: 1.0
+      type: long_grass
+      meta: 2
+      name: '&fAloe Vera'
+      lore:
+      - '&fAloe vera is often used to help heal'
+      - '&fwounds and relieve sunburns. It can'
+      - '&falso boost the immune system if ingested.'
+    astragalus:
+      weight: 1.0
+      type: red_rose
+      meta: 2
+      name: '&fAstragalus'
+      lore:
+      - '&fAstragalus has a history as herbal medicine.'
+      - '&fTraditionally, it was considered to reinforce'
+      - '&fqi and strengthen superficial resistance.'
+    berberis:
+      weight: 1.0
+      type: double_plant
+      meta: 4
+      name: '&fBerberis'
+      lore:
+      - '&fBerberis produce edible berries, rich in'
+      - '&fvitamin C, though it has a sharp acid flavor.'
+    bilberry:
+      weight: 1.0
+      type: red_rose
+      name: '&fBilberry'
+      lore:
+      - '&fBilberries have been thought of to improve'
+      - '&fnight vision. Although no research has shown'
+      - '&fsuch an effect, it remains popular in folklore.'
+    burdock:
+      weight: 1.0
+      type: double_plant
+      meta: 3
+      name: '&fBurdock'
+      lore:
+      - '&fBurdock has been said to act as a blood'
+      - '&fpurifying agent. It is a herbal medicine'
+      - '&fused for many ailments, and the taproot'
+      - '&fof young burdock plants can be eaten as'
+      - '&fa root vegetable.'
+    camomile:
+      weight: 1.0
+      type: red_rose
+      meta: 3
+      name: '&fCamomile'
+      lore:
+      - '&fPopular uses of camomile includes treating'
+      - '&fhay fever, inflammation, insomnia, ulcers'
+      - '&fand gastrointestinal disorders.'
+    comfrey:
+      weight: 1.0
+      type: long_grass
+      meta: 2
+      name: '&fComfrey'
+      lore:
+      - '&fComfrey was historically used to treat broken'
+      - '&fbones, sprains, sprains, severe burns, acne and'
+      - '&fother skin conditions. It should never be ingested,'
+      - '&fhowever, due to the toxicity of it.'
+    evening_primrose:
+      weight: 1.0
+      type: yellow_flower
+      name: '&fEvening Primrose'
+      lore:
+      - '&fEvening primrose has traditionally been used'
+      - '&fin preparations for hemorroids, bruises, wounds,'
+      - '&fand skin problems. Headache, stomach upset and'
+      - '&fnausea has been associated with it, however.'
+    flaxseed:
+      weight: 1.0
+      type: pumpkin_seeds
+      name: '&fFlaxseed'
+      lore:
+      - '&fFlaxseed is commonly used as a lacative.'
+      - '&fThe oil is used for different conditions,'
+      - '&fincluding arthritis.'
+    goldenseal:
+      weight: 1.0
+      type: long_grass
+      meta: 2
+      name: '&fGoldenseal'
+      lore:
+      - '&fTraditionally, goldenseal was used to treat'
+      - '&fskin diseases, ulchers and gonorrhea. In'
+      - '&fmore recent times, it has been used to treat'
+      - '&fthe respiratory tract and other infections.'
+    hawthorn:
+      weight: 1.0
+      type: double_plant
+      meta: 4
+      name: '&fHawthorn'
+      lore:
+      - '&fHawthorn has been used as a digestive aid in'
+      - '&ftraditional medicine. Overdose can cause cardiac'
+      - '&farrhythmia and dangerously low blood pressure.'
+      - '&fMilder side effects include nausea and sedation.'
+    horse_chestnut:
+      weight: 1.0
+      type: red_rose
+      meta: 3
+      name: '&fHorse Chestnut'
+      lore:
+      - '&fThe seeds, bark, leaves, and flowers, of horse'
+      - '&fchestnut have been used as medicine for centuries.'
+      - '&fThe raw plant materials are toxic unless processed.'
+    kava:
+      weight: 1.0
+      type: water_lily
+      name: '&fKava'
+      lore:
+      - '&fKava has been used for centuries to make a'
+      - '&fceremonial drink with sedative and anesthetic'
+      - '&fproperties. It is also used as a soporific.'
+    khat:
+      weight: 1.0
+      type: long_grass
+      meta: 2
+      name: '&fKhat'
+      lore:
+      - '&fAmong native communities, khat chewing has a'
+      - '&fhistory as a social custom dating back thousands'
+      - '&fof years. Khat contains an amphetamine-like'
+      - '&fsubstance, which is said to cause excitement,'
+      - '&floss of apetite and euphoria.'
+    lobelia:
+      weight: 1.0
+      type: red_rose
+      meta: 1
+      name: '&fLobelia'
+      lore:
+      - '&fNatives has used lobelia to treat respiratory and'
+      - '&fmuscle disorders. Because of the similarities to'
+      - '&fnicotine, internal use of lobelia may be dangerous'
+      - '&fto susceptible populations, such as children.'
+    milk_thistle:
+      weight: 1.0
+      type: red_rose
+      meta: 2
+      name: '&fMilk Thistle'
+      lore:
+      - '&fMilk thistle has been used for centuries, for a'
+      - '&fvariety of of medical purposes, in particular liver.'
+    peony:
+      weight: 1.0
+      type: red_rose
+      meta: 2
+      name: '&fPeony'
+      lore:
+      - '&fPeony has been used frequently in traditional'
+      - '&fmedicine, its root was used to treat convulsions.'
+      - '&fPeonies are also extensively grown as ornamental'
+      - '&fplants for their very large, often scented flowers.'
+    valerian:
+      weight: 1.0
+      type: double_plant
+      meta: 5
+      name: '&fValerian'
+      lore:
+      - '&fValerian has traditionally been used to cure'
+      - '&finsomnia and anxiety. Valerian should not be'
+      - '&fused with other depressants.'
+  Haste:
+    Ground:
+      Level 1: 0.1
+Generic:
+  Kelp Farmer:
+    drop:
+      type: vine
+      name: '&2Kelp'
+      lore:
+      - '&r&aGrown and harvested locally'
+    minChance: 0.08
+    maxChance: 0.015
+    minAmount: 3
+    maxAmount: 5
